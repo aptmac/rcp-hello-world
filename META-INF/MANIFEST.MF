@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Hello-world
+Bundle-SymbolicName: org.eclipse.ui.tutorials.rcp.part1;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+  org.eclipse.ui,
+  org.eclipse.equinox.ds,
+  org.eclipse.equinox.util,
+  org.eclipse.equinox.event
+Automatic-Module-Name: org.eclipse.ui.tutorials.rcp.part1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
